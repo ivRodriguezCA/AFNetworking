@@ -22,17 +22,11 @@
 
 #import "UIActivityIndicatorView+AFNetworking.h"
 
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
 #import "AFHTTPRequestOperation.h"
-
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
 #import "AFURLSessionManager.h"
-#endif
 
 @implementation UIActivityIndicatorView (AFNetworking)
 
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
 - (void)setAnimatingWithStateOfTask:(NSURLSessionTask *)task {
     NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
 
@@ -54,7 +48,6 @@
         }
     }
 }
-#endif
 
 #pragma mark -
 
@@ -93,5 +86,3 @@
 }
 
 @end
-
-#endif

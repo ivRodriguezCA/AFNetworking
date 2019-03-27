@@ -159,6 +159,15 @@
 		299522451BBF125A00859F49 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				39BC1075224B52FA000E3B00 /* AFNetworking.h */,
+				39BC1074224B52FA000E3B00 /* AFHTTPRequestOperation.h */,
+				39BC1072224B52FA000E3B00 /* AFHTTPRequestOperation.m */,
+				39BC1071224B52FA000E3B00 /* AFHTTPRequestOperationManager.h */,
+				39BC106F224B52FA000E3B00 /* AFHTTPRequestOperationManager.m */,
+				2995228A1BBF13C700859F49 /* AFNetworkActivityIndicatorManager.h */,
+				2995228B1BBF13C700859F49 /* AFNetworkActivityIndicatorManager.m */,
+				39BC1070224B52FA000E3B00 /* AFURLConnectionOperation.h */,
+				39BC1073224B52FA000E3B00 /* AFURLConnectionOperation.m */,
 				299522461BBF125A00859F49 /* AFHTTPSessionManager.h */,
 				299522471BBF125A00859F49 /* AFHTTPSessionManager.m */,
 				299522491BBF125A00859F49 /* AFNetworkReachabilityManager.h */,
@@ -178,15 +187,6 @@
 		299522851BBF13C700859F49 /* UIKit+AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				39BC1074224B52FA000E3B00 /* AFHTTPRequestOperation.h */,
-				39BC1072224B52FA000E3B00 /* AFHTTPRequestOperation.m */,
-				39BC1071224B52FA000E3B00 /* AFHTTPRequestOperationManager.h */,
-				39BC106F224B52FA000E3B00 /* AFHTTPRequestOperationManager.m */,
-				39BC1075224B52FA000E3B00 /* AFNetworking.h */,
-				39BC1070224B52FA000E3B00 /* AFURLConnectionOperation.h */,
-				39BC1073224B52FA000E3B00 /* AFURLConnectionOperation.m */,
-				2995228A1BBF13C700859F49 /* AFNetworkActivityIndicatorManager.h */,
-				2995228B1BBF13C700859F49 /* AFNetworkActivityIndicatorManager.m */,
 				2995228C1BBF13C700859F49 /* UIActivityIndicatorView+AFNetworking.h */,
 				2995228D1BBF13C700859F49 /* UIActivityIndicatorView+AFNetworking.m */,
 				2995228E1BBF13C700859F49 /* UIAlertView+AFNetworking.h */,

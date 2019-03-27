@@ -22,17 +22,11 @@
 
 #import "UIRefreshControl+AFNetworking.h"
 
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
 #import "AFHTTPRequestOperation.h"
-
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
 #import "AFURLSessionManager.h"
-#endif
 
 @implementation UIRefreshControl (AFNetworking)
 
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
 - (void)setRefreshingWithStateOfTask:(NSURLSessionTask *)task {
     NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
 
@@ -52,7 +46,6 @@
         }
     }
 }
-#endif
 
 - (void)setRefreshingWithStateOfOperation:(AFURLConnectionOperation *)operation {
     NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
@@ -89,5 +82,3 @@
 }
 
 @end
-
-#endif
