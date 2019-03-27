@@ -14,15 +14,15 @@ FOUNDATION_EXPORT double AFNetworkingVersionNumber;
 //! Project version string for AFNetworking.
 FOUNDATION_EXPORT const unsigned char AFNetworkingVersionString[];
 
-#import "<AFNetworking/AFURLRequestSerialization.h>"
-#import "<AFNetworking/AFURLResponseSerialization.h>"
-#import "<AFNetworking/AFSecurityPolicy.h>"
-#import "<AFNetworking/AFNetworkReachabilityManager.h>"
+#import <AFNetworking/AFURLRequestSerialization.h>
+#import <AFNetworking/AFURLResponseSerialization.h>
+#import <AFNetworking/AFSecurityPolicy.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 
-#import "<AFNetworking/AFURLConnectionOperation.h>"
-#import "<AFNetworking/AFHTTPRequestOperation.h>"
-#import "<AFNetworking/AFHTTPRequestOperationManager.h>"
+#import <AFNetworking/AFURLConnectionOperation.h>
+#import <AFNetworking/AFHTTPRequestOperation.h>
+#import <AFNetworking/AFHTTPRequestOperationManager.h>
 
-#import "<AFNetworking/AFURLSessionManager.h>"
-#import "<AFNetworking/AFHTTPSessionManager.h>"
+#import <AFNetworking/AFURLSessionManager.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 
